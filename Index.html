@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Aventuras mirabolantes</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+           <header>BEM VINDO A AVENTURA MIRABOLANTE</header>
+           <button class="btn-proximo" data-proximo="1">INICIAR</button>
+        </div>
+
+        <div class="passo" id="passo-1">
+            <img src="https://thumbs.dreamstime.com/b/garoto-tentando-ler-um-velho-mapa-de-viagem-perdido-em-uma-floresta-busca-aventura-231243084.jpg" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Eu buscava novas aventuras, mas ainda não sabia ao certo para onde me aventurar.</p>
+            <button class="btn-proximo" data-proximo="2">Ir para a floresta</button>
+            <button class="btn-proximo" data-proximo="8">Entrar em um portal mágico e misterioso que apareceu de forma totalmente aleatória</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Você segue em direção à floresta e, ao entrar, encontra um caminho marcado no chão.</p>
+            <img src="https://png.pngtree.com/thumb_back/fh260/background/20230315/pngtree-forest-path-cartoon-background-image_1948359.jpg" alt="">
+            <button class="btn-proximo" data-proximo="3">Seguir o caminho</button>
+            <button class="btn-proximo" data-proximo="4">Sair da floresta</button>
+        </div>
+        
+        <div class="passo" id="passo-3">
+            <p>Você segue o caminho e adentra cada vez mais fundo na floresta, encontrando vários animais durante a caminhada, até que chega ao fim do caminho, onde encontra uma ponte velha e abandonada, além de um tranquilo rio.</p>
+            <button class="btn-proximo" data-proximo="5">Seguir pela ponte</button>
+            <button class="btn-proximo" data-proximo="6">Seguir pelo rio</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrOhCZJSUjuEWwbtFXImUPlIPCUhIbqYJNZA&s" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Você sai da floresta, desiste de viver uma aventura inesquecível e volta para casa.</p>
+            <p>APERTE F5 PARA REINICIAR</p>
+        </div>
+
+        <div class="passo" id="passo-99">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpfxrWqegt39W3IEa43lQLYx_ur-CHVkHgAw&s" alt="imagem voltando para casa e desitindo da aventura">
+            <p>E assim, você teve uma aventura inesquecível.</p>
+            <p>APERTE F5 PARA REINICIAR</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>A ponte se quebra, você cai no abismo e morre.</p>
+            <p>APERTE F5 PARA REINICIAR</p>
+            <img src="https://media.gettyimages.com/id/1220260102/pt/vetorial/falling.jpg?s=612x612&w=gi&k=20&c=zmu54Nrx-gPmfbhEy5j4_bSWoz1rsxXJZbtL0OvCW8Y=" alt="">
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Você consegue atravessar o rio e encontra um macaco que fala, que te convida para uma festa na floresta.</p>
+            <button class="btn-proximo" data-proximo="7">Você aceita o convite</button>
+            <button class="btn-proximo" data-proximo="4">Você foge desesperadamente</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Você chega à festa secreta da floresta e encontra vários animais se divertindo.</p>
+            <button class="btn-proximo" data-proximo="99">Participar da festa</button>
+            <button class="btn-proximo" data-proximo="4">Você foge desesperadamente</button>
+           
+        </div>
+
+        <div class="passo" id="passo-8">
+            <img src="https://static.vecteezy.com/ti/fotos-gratis/p1/30689554-homem-mago-2d-desenho-animado-ilustracao-em-branco-fundo-alto-gratis-foto.jpg" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Ao passar pelo portal, encontro diversas criaturas bizarras e uma paisagem exuberante. De repente, um velho mago me dá uma missão.</p>
+            <button class="btn-proximo" data-proximo="9">Aceitar a missão do mago</button>
+            <button class="btn-proximo" data-proximo="100">Ignorar ele</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>A missão é encontrar uma fruta mágica com um nome impronunciável. Você recebe um mapa com dois possíveis caminhos.</p>
+            <button class="btn-proximo" data-proximo="10">Caminho 1: vale dos espelhos</button>
+            <button class="btn-proximo" data-proximo="11">Caminho 2: Reino das fadas</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>No Vale dos Espelhos, tudo reflete o caos e as leis da física não se aplicam. As reflexões distorcem sua percepção do tempo e espaço, e você fica preso para sempre nesse lugar caótico.</p>
+            <p>APERTE F5 PARA REINICIAR</p>
+            <img src="https://t.ctcdn.com.br/QJ6ciGI6UVrsXbrEeDoKm3iiGVc=/1024x0/smart/filters:format(webp)/i293729.png" alt="">
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="https://img.freepik.com/vetores-premium/planta-magica-de-fantasia-de-arvore-alienigena-amarela-de-desenho-animado_8071-10073.jpg" alt="">
+            <p>Você encontra a árvore mágica com a fruta de nome impronunciável. No entanto, só há uma fruta mágica, e ela parece ser deliciosa.</p>
+            <button class="btn-proximo" data-proximo="66">Comer a fruta</button>
+            <button class="btn-proximo" data-proximo="12">Entregar para o mago</button>
+        </div>
+
+        <div class="passo" id="passo-66">
+            <img src="https://imgb.ifunny.co/images/d6bbf29a77abb0820bc9f823e35a0771d165723dd1ca37c0360768ac4a95f04d_1.jpg" alt="">
+            <p>O mago fica furioso e te ataca. No entanto, a fruta te concede a imortalidade, e vocês lutam. Você vence a batalha, mas fica preso nesta dimensão para sempre.</p>
+            <p>APERTE F5 PARA REINICIAR</p>
+           
+        </div>
+
+        <div class="passo" id="passo-100">
+            <img src="https://imgb.ifunny.co/images/d6bbf29a77abb0820bc9f823e35a0771d165723dd1ca37c0360768ac4a95f04d_1.jpg" alt="">
+            <p>Você explora essa dimensão, mas se perde e fica preso nela até o fim da sua vida.</p>
+            <p>APERTE F5 PARA REINICIAR</p>
+           
+        </div>
+        
+
+        <div class="passo" id="passo-12">
+            <img src="https://img.freepik.com/vetores-premium/saco-de-dinheiro-de-moeda-de-ouro-vermelho-vetor-isolado-saco-de-tesouro-pirata-escondido-icone-de-jogo-de-premio-de-rpg_191217-662.jpg" alt="">
+            <p>O mago te liberta dessa dimensão e te recompensa com muito ouro.</p>
+            <p>APERTE F5 PARA REINICIAR</p>
+            <button class="btn-proximo" data-proximo="99">Receber recompensa</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
